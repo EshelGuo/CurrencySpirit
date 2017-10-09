@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OptionItemView">
+        <attr name="item_icon" format="reference" />
+        <attr name="item_title" format="reference|string" />
+        <attr name="iconPaddingRight" format="reference|dimension" />
+        <attr name="item_mode" format="integer">
+            <enum name="top" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr name="item_icon2_visivity" format="integer">
+            <enum name="visivity" value="0"/>
+            <enum name="invisivity" value="4"/>
+        </attr>
+        <attr name="item_icon_type" format="integer">
+            <enum name="normal" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+        <attr name="item_title_gravity" format="integer">
+            <enum name="top" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr>
+        <attr name="item_title_style">
+            <enum name="bold" value="0"/>
+            <enum name="normal" value="1"/>
+        </attr>
+        <attr name="item_title_size" format="integer"/>
+    </declare-styleable>
+</resources>

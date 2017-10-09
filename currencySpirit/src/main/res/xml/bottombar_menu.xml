@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/item_essence"
+        title="@string/item_essence"
+        icon="@drawable/item_essence_selector"
+    />
+    <tab
+        id="@+id/item_information"
+        title="@string/item_information"
+        icon="@drawable/item_information_selector"
+    />
+    <tab
+        id="@+id/item_currency"
+        title="@string/item_currency"
+        icon="@drawable/item_currency_selector"
+    />
+    <tab
+        id="@+id/item_user"
+        title="@string/item_user"
+        icon="@drawable/item_user_selector"
+    />
+</tabs>
